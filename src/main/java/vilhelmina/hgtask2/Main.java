@@ -10,7 +10,7 @@ public class Main {
         System.out.println("-------------- INHERITANCE --------------\n");
         
         System.out.println("Instance of InheritanceDay is created...");
-        InheritanceDay inheritanceDay = new InheritanceDay(2022,06,06);
+        InheritanceDay inheritanceDay = new InheritanceDay(2022,05,06);
         System.out.println("First task is added...");
         inheritanceDay.addTask(firstTask);
         System.out.println("Second task is added...");
@@ -24,7 +24,7 @@ public class Main {
         System.out.println("\n-------------- COMPOSITION --------------\n");
         
         System.out.println("Instance of CompositionDay is created...");
-        CompositionDay compositionDay = new CompositionDay(2022,06,06);
+        CompositionDay compositionDay = new CompositionDay(2022,05,06);
         System.out.println("First task is added...");
         compositionDay.addTask(firstTask);
         System.out.println("Second task is added...");
