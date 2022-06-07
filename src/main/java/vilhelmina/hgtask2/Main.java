@@ -10,8 +10,8 @@ public class Main {
         System.out.println("-------------- INHERITANCE --------------\n");
         
         InheritanceDay inheritanceDay = new InheritanceDay(2022,06,06);
-        inheritanceDay.addActivity(firstTask);
-        inheritanceDay.addActivity(secondTask);
+        inheritanceDay.addTask(firstTask);
+        inheritanceDay.addTask(secondTask);
         inheritanceDay.setCompleted(firstTask, true);
         System.out.println(inheritanceDay);
         
@@ -19,8 +19,8 @@ public class Main {
         System.out.println("\n-------------- COMPOSITION --------------\n");
         
         CompositionDay compositionDay = new CompositionDay(2022,06,06);
-        compositionDay.addActivity(firstTask);
-        compositionDay.addActivity(secondTask);
+        compositionDay.addTask(firstTask);
+        compositionDay.addTask(secondTask);
         compositionDay.setCompleted(firstTask, true);
         System.out.println(compositionDay);
         
